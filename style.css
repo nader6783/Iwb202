@@ -125,7 +125,7 @@ footer {
   font-size: 14px;
 }
 
-.home-button, .proreriies-button, .contact-button {
+.home-button, .Books-button, .contact-button {
   background-color: #6f3c0f;
   color: #fff;
   text-align: center;
@@ -147,7 +147,7 @@ footer {
   }
 
   .home-button,
-  .proreriies-button,
+  .Books-button,
   .contact-button {
     font-size: 16px;
   }
@@ -228,7 +228,7 @@ body{
 
     }
 
-.properties-head-container {
+.Books-head-container {
 
   padding-top: 1px;
   padding-bottom: 1px;
