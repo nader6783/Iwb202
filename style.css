@@ -1,0 +1,407 @@
+
+
+/* General Styles */
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+/* Contact Info Section Styles */
+.contact-info {
+  background-color: #f2f2f2;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info li strong {
+  display: block;
+  font-weight: bold;
+}
+
+
+
+.hero p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: -0.5px 0 0 #000000, 0 0.5px 0 #000000, 0.5px 0 0 #000000, 0 -0.5px 0 #000000, 0 0 1px #000;
+
+}
+
+/* About Us Section Styles */
+.about-us {
+  background-color: #fff;
+  
+}
+
+.about-us h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+/* Header Styles */
+header {
+  background-color:  #6f3c0f;
+  padding: 20px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style:disc;
+  
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('images/Backgraund.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #6f3c0f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.home-button, .proreriies-button, .contact-button {
+  background-color: #6f3c0f;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  .home-button,
+  .proreriies-button,
+  .contact-button {
+    font-size: 16px;
+  }
+}
+
+.arabic {
+  direction: rtl;
+}
+
+/*صفحة الكتب*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeeee;
+  }
+  table{
+    width: 85%;
+    margin-left: auto;
+    margin-right: 0;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  .table-container{
+    margin: 20px;
+  }
+
+  table th{
+      padding:15px;
+      background-color:#6f3c0f;
+      border:1px solid #ffffff;
+      color:#ffffff;
+      }
+
+  table th, table td {
+    width: 100%;
+  }
+  
+  table tr td{
+      background-color: #b7a14afc;
+      font-size: 24px;
+      color:#000000;
+      padding: 5px;
+      border-color: #ffffff;   
+      text-align: right;
+          }
+
+  td img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .form-container {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+  }
+  .continue-Button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    background-color: #6f3c0f;
+    color: #ffffff;
+  }
+  
+  .continue-Button:hover {
+      opacity: 0.8;
+      }
+  
+  .continue-Button-container {
+      text-align: center; 
+      padding: 20px;
+
+    }
+
+.properties-head-container {
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+
+/* الفورم */
+.form-container {
+  width: 400px; 
+  margin: 50px auto; 
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+
+label {
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"] {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+  box-sizing: border-box; 
+}
+
+
+button[type="submit"] {
+  background-color: #6f3c0f; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+button[type="submit"]:hover {
+  opacity: 0.8; 
+}
+
+
+
+/*home styls*/
+
+#navmeu-home{
+display: flex;
+align-items: center;
+background-color: #6f3c0f;
+height: 70px;
+list-style:disc;
+}
+#navmeu-home li {
+  margin-right: 40px;
+}
+#navmeu-home li a{
+font-size: 24px;
+color:#fff;
+font-weight: bold;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Hero Section Styles */
+.hero-home {
+  background-image: url('images/Backgraund.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+
+}
+
+/*Doctor name*/
+.D-N{
+margin: 10px;
+}
+
+/* Student Name Style  */
+#line1-home , #line2-home{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  vertical-align:middle;
+  flex-wrap: wrap;
+}
+
+#all-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+#std-home{
+  width: 300px;
+  height: 110px;
+  margin: 10px 50px;
+  background-color: #6f3c0f;
+  border-radius: 10px;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: gray 9px 6px 20px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#link-home{
+  margin-top: 40px;
+  width: 94%;
+  height: 60px;
+  background-color: #fff;
+  border: #6f3c0f solid 4px;
+  border-radius: 10px;
+  text-align: right;
+  box-shadow: gray 9px 6px 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+#link-home a{
+  color: #6f3c0f;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration: none;
+}
+
+
+/* Footer Styles */
+.-home {
+  background-color: #6f3c0f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  height: 60px;
+}
+
+.h1-home{
+  color: rgb(63, 63, 63);
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h3-home{
+  color: rgb(63, 63, 63);
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#std-home:hover{
+  background-color: #fff;
+  border: #6f3c0f solid 2px;
+  color: #6f3c0f;
+}
+.hero-text1-home{
+  color: #fff;
+}

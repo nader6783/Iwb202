@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content=""/>
+    <title>الكتب</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .details {
+            display: none; 
+        }
+    </style>
+<script src="script.js"></script>
+<header class="arabic">
+    <nav>
+      <ul>
+        <li><a href="https://wissamx2.github.io/IWB202/"><button class="home-button">الرئيسية</button></a></li>
+        <li><a href="https://wissamx2.github.io/IWB202/Properties"><button class="proreriies-button">الكتب</button></a></li>
+        <li><a href="https://wissamx2.github.io/IWB202/About Us"><button class="contact-button">اتصل بنا</button></a></li>
+      </ul>
+    </nav>
+  </header>
+</head>
+<body>
+    <div class="properties-head-container">
+        <h1 class="arabic" style="color:#6f3c0f">الكتب المتوفرة:</h1>
+    </div>
+
+    
+    <div class="table-container">
+        <table border="2" >
+            <tr>
+                <th>اختيار</th>
+                <th>إظهار التفاصيل</th>
+                <th>السعر</th>
+                <th> العنوان</th>
+                <th>ISPN رمز الكتاب</th>
+            </tr>
+            <tr>
+                <td><input type="radio" name="options"> </td>
+                
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details1')"></td>
+                <td dir="rtl">40000 ل.س</td>
+                <td>الخيميائي</td>
+                <th>978-9770916738</th>
+            </tr>
+            <tr id="details1" class="details">
+                <td colspan="5">
+    
+                    <table width="100%">
+                        <tr>
+                            <td >الناشر: دار الجمل</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: رواية</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: يروي قصة سانتياغو، الراعي الأندلسي الذي يترك بلده بحثًا عن كنز مخفي. خلال رحلته، يلتقي بشخصيات متنوعة، وكل واحدة تضيف له دروسًا في الحياة. يتناول الكتاب مواضيع مثل تحقيق الأحلام، البحث عن الذات، وأهمية الاستماع إلى القلب
+                            </td>
+                        </tr>
+
+
+                        
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/Alchemist_1.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/Alchemist_2.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>
+                    
+    
+            </tr>
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details2')"></td>
+                <td dir="rtl">55000 ل.س</td>
+                <td>فكر لتصبح غنيا</td>
+                <th>978-9770916739</th>
+            </tr>
+            <tr id="details2" class="details">
+                <td colspan="5">
+                    
+                    <table width="100%" >
+                        <tr>
+                            <td>الناشر: مكتبة جرير</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: تنمية ذاتية</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: يُعتبر من الكتب الكلاسيكية في مجال التنمية الذاتية. يركز على مفهوم "القدرة على التفكير" كوسيلة لتحقيق الثروة والنجاح. يقدم استراتيجيات عملية وأمثلة من حياة أشخاص ناجحين، مما يساعد القراء على تطوير عقليتهم وتحقيق أهدافهم المالية.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/rich_1.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/210px-Napoleon_Hill_holding_book_1937.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>
+                    
+                    
+                    .</td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details3')"></td>
+                <td dir="rtl">71000 ل.س</td>
+                <td>الرجال من المريخ والنساء من الزهرة</td>
+                <th>978-9770916740</th>
+            </tr>
+            <tr id="details3" class="details">
+                <td colspan="5">
+                    
+                    <table width="100%">
+                        <tr>
+                            <td>الناشر: دار الفكر</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: علاقات</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: يتناول الكتاب الاختلافات الأساسية بين الرجال والنساء وكيف تؤثر هذه الاختلافات على العلاقات. يقدم نصائح عملية لتحسين التواصل وفهم الشريك، مما يساعد في بناء علاقات صحية ومتناغمة. يُعد دليلًا مهمًا للأزواج والمقبلين على الزواج.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/mars-1.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/mars-2jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/mars-3jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>               
+                    
+                    </td>
+            </tr>
+    
+    
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details4')"></td>
+                <td dir="rtl">45000 ل.س</td>
+                <td>الحب في زمن الكوليرا</td>
+                <th>978-9770916741</th>
+            </tr>
+            <tr id="details4" class="details">
+                <td colspan="5"> 
+                    
+                    <table width="100%" >
+                        <tr>
+                            <td>الناشر: دار المدى</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: رواية</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: تدور أحداث الرواية حول قصة حب طويلة الأمد بين فلورنتينو وأفيرا، التي تبدأ في شبابهم وتستمر لعقود. تتناول الرواية مواضيع الحب، الصبر، والشيخوخة في سياق تاريخي معقد يتضمن الأوبئة والتغيرات الاجتماعية. يتميز الأسلوب السردي بالعمق والتفاصيل الغنية.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/love-1jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/love-2jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/love-3jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>
+                         
+                .</td>
+            </tr>
+    
+    
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details5')"></td>
+                <td dir="rtl">40000 ل.س</td>
+                <td>الأمير </td>
+                <th>978-9770916742</th>
+            </tr>
+            <tr id="details5" class="details">
+                <td colspan="5"> 
+                    
+                    <table width="100%" >
+                        <tr>
+                            <td>الناشر: دار الساقي</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: فلسفة سياسية</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: يعتبر هذا الكتاب دليلًا في فن الحكم والسياسة، حيث يقدم مكيافيللي نصائح عملية للحكام حول كيفية الحفاظ على السلطة. يتناول موضوعات مثل الخداع، القوة، والتوازن بين الأخلاق والسياسة، مما يجعله مرجعًا مهمًا للمهتمين بالسياسة.</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/prince-1jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/prince-2jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/prince-3jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>           
+                     </td>
+            </tr>
+    
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details6')"></td>
+                <td dir="rtl">48000 ل.س</td>
+                <td>أولاد حارتنا</td>
+                <th>978-9770916743</th>
+            </tr>
+            <tr id="details6" class="details">
+                <td colspan="5">
+                    
+                    <table width="100%" >
+                        <tr>
+                            <td>الناشر: دار الشروق</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: رواية</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: تتناول الرواية حياة مجموعة من الشخصيات في حارة مصرية، حيث تتداخل قضايا الدين، السياسة، والهوية. من خلال رموز قوية وشخصيات معقدة، يعكس نجيب محفوظ التغيرات الاجتماعية والثقافية التي شهدتها مصر في القرن العشرين.</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/kids-1jpg.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/kids-2.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/kids-3.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>
+                    
+            
+                    .</td>
+            </tr>
+    
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details7')"></td>
+                <td dir="rtl">34000 ل.س</td>
+                <td>الذاكرة الجريحة</td>
+                <th>978-9770916744</th>
+            </tr>
+            <tr id="details7" class="details">
+                <td colspan="5"> 
+                    
+                    <table width="100%" >
+                        <tr>
+                            <td>الناشر: دار الساقي</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب:  أدب سيرة</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: يستعرض الكتاب تجارب الفلسطينيين خلال النكبة، من خلال سرد قصص واقعية تكشف عن معاناتهم وآمالهم. يعكس الكتاب الفقد، التشتت، والتعلق بالوطن، مما يجعله شهادة حية على النضال الفلسطيني.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/memory-1.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/memory-2.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>
+                    
+                
+                    .</td>
+            </tr>
+    
+    
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details8')"></td>
+                <td dir="rtl">45000 ل.س</td>
+                <td>شيفرة دافنشي</td>
+                <th>978-97709167415</th>
+            </tr>
+            <tr id="details8" class="details">
+                <td colspan="5"> 
+                    
+                    <table width="100%" >
+                        <tr>
+                            <td>الناشر: دار الكتاب العربي</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: رواية</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: تتناول الرواية ألغازًا تاريخية ودينية في إطار من الإثارة والتشويق. تتبع القصة روبرت لانغدون في رحلة لحل ألغاز مرتبطة بلوحات دافنشي وتاريخ الكنيسة، مما يثير تساؤلات حول الإيمان والمعرفة.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/code-1.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/code-2.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/code-3.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>
+                    
+                    .</td>
+            </tr>
+    
+    
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details9')"></td>
+                <td dir="rtl">52000 ل.س</td>
+                <td>عابر سرير</td>
+                <th>978-9770916746</th>
+            </tr>
+            <tr id="details9" class="details">
+                <td colspan="5">
+                    <table width="100%" >
+                        <tr>
+                            <td>الناشر: دار الآداب</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: رواية</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: تدور أحداث الرواية حول قصة حب تُظهر تعقيدات العلاقات الإنسانية، حيث تتصارع الشخصيات مع مشاعر الحب والفقد والانفصال. يعكس الكتاب البيئة الاجتماعية والثقافية التي تؤثر على العلاقات العاطفية.
+                            </td>
+                        </tr>
+                     
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/bed-1.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/bed-2.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/bed-3.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>
+                    
+                    
+                    .</td>
+            </tr>
+    
+    
+            <tr>
+                <td><input type="radio" name="options"></td>
+                <td><input type="checkbox" onclick="toggleDetails(this, 'details10')"></td>
+                <td dir="rtl">6000 ل.س</td>
+                <td>الأسود يليق بك</td>
+                <th>978-9770916747</th>
+            </tr>
+            <tr id="details10" class="details">
+                <td colspan="5">  
+                    <table width="100%" >
+                        <tr>
+                            <td>الناشر: دار الساقي</td>
+                        </tr>
+                        <tr>
+                            <td> تصنيف الكتاب: رواية</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>الملخص: تتناول الرواية حياة فنانة تتصارع مع مشاعر الحب والفقد، حيث تستكشف تعقيدات العلاقات الإنسانية والتحديات التي تواجهها. تعكس الرواية الصراع الداخلي الذي يعاني منه الشخصيات في محاولتهم للعثور على السعادة.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" style="text-align: center;">
+                                <img src="images/black-1.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/black-2.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                                <img src="images/black-3.jpg" alt="error" width="150" height="75" style="margin: 0 70px;">
+                            </td>
+                        </tr>
+                       
+                      </table>
+    
+    
+                </td>
+            </tr>
+    
+    
+        </table>
+    </div>
+    
+    
+    <div id="form-container" class="form-container">
+        <form onsubmit="return validateForm()">
+            <label for="nationalId">الرقم الوطني:</label>
+            <input type="text" id="nationalId" name="nationalId" required><br><br>
+            
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="birthDate">تاريخ الميلاد (dd-mm-yyyy):</label>
+            <input type="text" id="birthDate" name="birthDate"><br><br>
+            
+            <label for="mobile">رقم الموبايل:</label>
+            <input type="text" id="mobile" name="mobile"><br><br>
+            
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="captcha">أدخل رمز Captcha: <span id="captchaCode"></span></label>
+            <input type="text" id="captcha" name="captcha" required><br><br>
+            
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+    <div class="continue-Button-container">
+        <button onclick="showForm()" class="continue-Button"
+    >متابعة
+        </button>
+    </div>
+    
+    
+</body>
+<footer>
+    <div class="container">
+        <p>All Rights Reseved</p>
+        <p>Copyright 2024 -- Created By SVU Students</p>
+    </div>
+  </footer>
+</html>
